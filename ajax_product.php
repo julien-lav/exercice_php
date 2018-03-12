@@ -1,16 +1,14 @@
 <?php
 
 require("connection.php");
-
 $mandatoryFields = array("id_product", "category", "name", "price", "comment");
-
 foreach ($mandatoryFields as $field)
 {
     if (!array_key_exists($field, $_REQUEST))
     {
         http_response_code(403);
         echo "Lacking parameter $field. Abort";
-        die();
+        die(); # -> Add a redirection 
     }
 }
 

@@ -1,3 +1,6 @@
-# Add comments in the code
-# Better indentation 
-# Refacto
+# Add comments in the code 
+# Do a better indentation  <?php echo '' . '' <----
+# Refacto some parts
+# Add user notice
+# Organize folders js/css
+# Create css folder
